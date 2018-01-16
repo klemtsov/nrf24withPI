@@ -16,7 +16,6 @@ import java.util.logging.Logger;
 public class TestNrf24Application {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(TestNrf24Application.class, args);
 		try {
 			Process p = Runtime.getRuntime().exec("gpio load spi");
